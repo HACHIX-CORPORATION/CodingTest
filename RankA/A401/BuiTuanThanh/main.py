@@ -1,5 +1,8 @@
 print("Thank you for joining coding test")
 
+# Em tính thiếu trường hợp, khi tài liệu nằm dưới bị phủ bởi tài liệu ở trên
+# Vì thế nên em nghĩ cách làm này của em không đúng.
+
 N = int(input())
 
 
