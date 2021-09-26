@@ -1,6 +1,5 @@
 (function main() {
-    //var array=[1 ,0 ,1 ,1 ,1 ,1 ,1 ,1 ,0];
-     //var array=[1 ,1 ,1 ,1 ,1 ,0 ,0 ,1 ,1 ,1 ,1 ,1 ,0 ,0];
+        var array=[1 ,1 ,1 ,0 ,1 ,1 ,1 ,0 ,1 ,1 ,0];
 
     var n=array.length;
     var maxLength=0;
@@ -18,7 +17,7 @@
         var arrTemp1=[];
         for(var j=i;j<n-1;j++){
             var dem=0;
-            if(j-i>=7){
+            if(j-i>=){
                 for(var k=i;k<j+1;k++){
                     arrTemp1[dem++]=array[k];
                 }
